@@ -6,7 +6,7 @@ export default function ContactForm() {
     alert("You information successfully submitted")
   }
   return (
-    <div className="container m-auto  py-12 px-4 sm:p-6 lg:px-8 grid sm:grid-cols-2 grid-cols-1 sm:mt-12 mt-10 bg-[#6A8086]" id="contact">
+    <div className="container m-auto  py-12 px-4 sm:p-6 lg:px-8 grid sm:grid-cols-2 grid-cols-1 sm:mt-0 mt-10 bg-[#6A8086]" id="contact">
       <div className="sm:max-w-3xl w-full sm:w-[50%] sm:mx-auto bg-transparent shadow-md shadow-green-950 rounded-lg p-4 mr-36  border-2 border-[#6A8086] ">
         <h2 className="text-2xl font-bold text-gray-800 mb-4">Contact Me</h2>
         <form action="/api/contact" method="POST" className="space-y-6">

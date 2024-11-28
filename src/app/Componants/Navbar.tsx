@@ -18,9 +18,9 @@ const Navbar = () => {
       </div>
       <div className='hidden sm:block space-x-8 '>
         <Link href={'/'}>Home</Link>
-        <Link href={'#about'}>About</Link>
-        <Link href={'#contact'}>Contact</Link>
-        <Link href={'#'}>Projects</Link>
+        <Link href={'/About'}>About</Link>
+        <Link href={'/Contact'}>Contact</Link>
+        <Link href={'/Projects'}>Projects</Link>
       </div>
       <div className='hidden md:block '><ModeToggle/></div>
       
