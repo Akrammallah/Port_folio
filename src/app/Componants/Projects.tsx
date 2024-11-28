@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <>
        <div className="container mx-auto p-6">
-    <h1 className="text-3xl font-bold text-center text-gray-800 mb-8">
+    <h1 className="text-3xl font-bold text-center text-gray-800 mb-8 dark:text-white">
        My Projects 
     </h1>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -56,7 +56,7 @@ const Projects = () => {
           className="w-full h-40 object-cover"
         />
         <div className="p-4">
-          <h2 className="text-lg font-bold text-gray-800 mb-2">Project 3</h2>
+          <h2 className="text-lg font-bold text-gray-800 mb-2 ">Project 3</h2>
           <p className="text-gray-600 mb-4">
             A brief description of Project 3. Learn more about it here.
           </p>

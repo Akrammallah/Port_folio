@@ -25,7 +25,7 @@ const Home = () => (
     >
       
     </ReactTyped></span></h1>
-    <p className="mt-6 text-[#133446] text-3xl sm:text-sm text-justify pr-6 sm:leading-8">A skilled web developer with expertise in crafting responsive and dynamic websites, dedicated to creating user-friendly designs and efficient code. Passionate about modern web technologies, always seeking innovative solutions to deliver high-quality digital experiences tailored to meet diverse client needs. Driven by a commitment to continuous learning and improvement.
+    <p className="mt-6 text-[#133446] text-3xl sm:text-sm text-justify pr-6 sm:leading-8 dark:text-white">A skilled web developer with expertise in crafting responsive and dynamic websites, dedicated to creating user-friendly designs and efficient code. Passionate about modern web technologies, always seeking innovative solutions to deliver high-quality digital experiences tailored to meet diverse client needs. Driven by a commitment to continuous learning and improvement.
 </p>
 <Link href={"#contact"}>
 <button className="px-10 sm:px-6 py-4 sm:py-2 bg-[#133446] text-white rounded-md sm:mt-6 mt-8 sm:mb-0 mb-6" >Contact Me</button>

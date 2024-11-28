@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 import { GiHamburgerMenu } from "react-icons/gi";
 
-
+import ModeToggle from './Dark';
 
 const Navbar = () => {
   return (
@@ -22,6 +22,7 @@ const Navbar = () => {
         <Link href={'#contact'}>Contact</Link>
         <Link href={'#'}>Projects</Link>
       </div>
+      <div className='hidden md:block '><ModeToggle/></div>
       
       <div className='sm:hidden text-6xl'><GiHamburgerMenu />
 

@@ -1,6 +1,8 @@
 
 import "./globals.css";
 import Navbar from "@/app/Componants/Navbar";
+import { ThemeProvider } from "@/app/theme-provider"
+
 
 
 
@@ -11,11 +13,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        
-      >
-        <Navbar/>
-        {children}
+      <body>
+      <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            <Navbar/>
+            {children}
+          </ThemeProvider>
+
       </body>
     </html>
   );
