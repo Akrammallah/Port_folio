@@ -1,5 +1,6 @@
-import Link from 'next/link'
-import React from 'react'
+import Link from 'next/link';
+import React from 'react';
+import Image from 'next/image';
 
 const Projects = () => {
   
@@ -9,12 +10,14 @@ const Projects = () => {
     <h1 className="text-3xl font-bold text-center text-gray-800 mb-8 dark:text-white">
        My Projects 
     </h1>
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 ">
       
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-        <img
+      <div className="bg-white rounded-lg shadow-lg overflow-hidden border-2 border-gray-700 shadow-gray-700">
+        <Image
           src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBvcnRmb2xpbyUyMHdlYnNpdGV8ZW58MHx8MHx8fDA%3D"
+          
           alt="Project 1"
+          width={600} height={600}
           className="w-full h-40 object-cover"
         />
         <div className="p-4">
@@ -30,9 +33,10 @@ const Projects = () => {
         </div>
       </div>
       
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-        <img
+      <div className="bg-white rounded-lg shadow-lg overflow-hidden border-2 border-gray-700 shadow-gray-700">
+        <Image
           src="https://plus.unsplash.com/premium_photo-1661670152522-8db946b83f81?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHBvcnRmb2xpbyUyMHdlYnNpdGV8ZW58MHx8MHx8fDA%3D"
+          
           alt="Project 2"
           className="w-full h-40 object-cover"
         />
@@ -49,9 +53,10 @@ const Projects = () => {
         </div>
       </div>
       
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-        <img
+      <div className="bg-white rounded-lg shadow-lg overflow-hidden border-2 border-gray-700 shadow-gray-700">
+        <Image
           src="https://plus.unsplash.com/premium_photo-1669078519237-61fb1374a915?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fHBvcnRmb2xpbyUyMHdlYnNpdGV8ZW58MHx8MHx8fDA%3D"
+          width={600} height={600}
           alt="Project 3"
           className="w-full h-40 object-cover"
         />
@@ -70,9 +75,10 @@ const Projects = () => {
         </div>
       </div>
       
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-        <img
+      <div className="bg-white rounded-lg shadow-lg overflow-hidden border-2 border-gray-700 shadow-gray-700">
+        <Image
           src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHBvcnRmb2xpbyUyMHdlYnNpdGV8ZW58MHx8MHx8fDA%3D"
+          width={600} height={600}
           alt="Project 4"
           className="w-full h-40 object-cover"
         />
