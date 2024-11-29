@@ -1,6 +1,8 @@
 import React from 'react';
-import Image from 'next/image';
-import img from "../../../public/images/about.jpg"
+// import Image from 'next/image';
+// import img from "../../../public/images/about.jpg"
+import Image from 'next/image'
+import img from "@/Images/about.jpg"
 
 const About = () => {
   return (

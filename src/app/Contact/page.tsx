@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image";
-import img from '../../../public/images/map.jpg'
+import img from '@/Images/map.jpg'
 export default function ContactForm() {
   const handler = () => {
     alert("You information successfully submitted")

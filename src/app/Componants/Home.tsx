@@ -1,7 +1,7 @@
 "use client"
 import { ReactTyped } from "react-typed";
 import Image from "next/image";
-import img from "../../../public/Images/home.jpg"
+import img from "@/Images/home.jpg"
 import Link from "next/link";
 
 const Home = () => (
