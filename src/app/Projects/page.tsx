@@ -14,7 +14,7 @@ const Projects = () => {
       
       <div className="bg-white rounded-lg shadow-lg overflow-hidden border-2 border-gray-700 shadow-gray-700">
         <Image
-          src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBvcnRmb2xpbyUyMHdlYnNpdGV8ZW58MHx8MHx8fDA%3D"
+          src="https://images.pexels.com/photos/38519/macbook-laptop-ipad-apple-38519.jpeg?auto=compress&cs=tinysrgb&w=800"
           
           alt="Project 1"
           width={600} height={600}
@@ -35,7 +35,8 @@ const Projects = () => {
       
       <div className="bg-white rounded-lg shadow-lg overflow-hidden border-2 border-gray-700 shadow-gray-700">
         <Image
-          src="https://plus.unsplash.com/premium_photo-1661670152522-8db946b83f81?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHBvcnRmb2xpbyUyMHdlYnNpdGV8ZW58MHx8MHx8fDA%3D"
+          src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800"
+          width={600} height={600}
           
           alt="Project 2"
           className="w-full h-40 object-cover"
@@ -55,7 +56,7 @@ const Projects = () => {
       
       <div className="bg-white rounded-lg shadow-lg overflow-hidden border-2 border-gray-700 shadow-gray-700">
         <Image
-          src="https://plus.unsplash.com/premium_photo-1669078519237-61fb1374a915?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fHBvcnRmb2xpbyUyMHdlYnNpdGV8ZW58MHx8MHx8fDA%3D"
+          src="https://images.pexels.com/photos/811587/pexels-photo-811587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           width={600} height={600}
           alt="Project 3"
           className="w-full h-40 object-cover"
@@ -77,7 +78,7 @@ const Projects = () => {
       
       <div className="bg-white rounded-lg shadow-lg overflow-hidden border-2 border-gray-700 shadow-gray-700">
         <Image
-          src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHBvcnRmb2xpbyUyMHdlYnNpdGV8ZW58MHx8MHx8fDA%3D"
+          src="https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800"
           width={600} height={600}
           alt="Project 4"
           className="w-full h-40 object-cover"
