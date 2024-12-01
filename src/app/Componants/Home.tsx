@@ -10,7 +10,7 @@ const Home = () => (
   <div className="ml-6">
     
     <br />
-<h1 className="sm:text-4xl text-[7vw] text-[#6A8086]">Hello I am a <span className="text-[#F96F3E]">
+<h1 className="sm:text-4xl text-[7vw] text-[#133446]">Hello I am a <span className="text-[#F96F3E]">
     <ReactTyped
     
 
@@ -31,8 +31,8 @@ const Home = () => (
 <button className="px-10 sm:px-6 py-4 sm:py-2 bg-[#133446] text-white rounded-md sm:mt-6 mt-8 sm:mb-0 mb-6" >Contact Me</button>
 
 </Link>  </div>
-  <div className="ml-24 sm:ml-24">
-    <Image
+  <div className="md:ml-24 sm:ml-24">
+    <Image className="w-[100%] md:w-96"
     src={img} alt="" width={400}/>
     
   </div>
