@@ -12,7 +12,7 @@ const Projects = () => {
     </h1>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 ">
       
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden border-2 border-gray-500 shadow-gray-500">
+      <div className="bg-white rounded-lg shadow-lg overflow-hidden shadow-gray-400">
         <Image
           src="https://images.pexels.com/photos/38519/macbook-laptop-ipad-apple-38519.jpeg?auto=compress&cs=tinysrgb&w=800"
           
@@ -33,7 +33,7 @@ const Projects = () => {
         </div>
       </div>
       
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden border-2 border-gray-500 shadow-gray-500">
+      <div className="bg-white rounded-lg shadow-lg overflow-hidden  shadow-gray-400">
         <Image
           src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800"
           width={600} height={600}
@@ -54,7 +54,7 @@ const Projects = () => {
         </div>
       </div>
       
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden border-2 border-gray-500 shadow-gray-500">
+      <div className="bg-white rounded-lg shadow-lg overflow-hidden  shadow-gray-400">
         <Image
           src="https://images.pexels.com/photos/811587/pexels-photo-811587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           width={600} height={600}
@@ -76,7 +76,7 @@ const Projects = () => {
         </div>
       </div>
       
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden border-2 border-gray-500 shadow-gray-500">
+      <div className="bg-white rounded-lg shadow-lg overflow-hidden  shadow-gray-400">
         <Image
           src="https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800"
           width={600} height={600}

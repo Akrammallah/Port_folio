@@ -9,8 +9,8 @@ import ModeToggle from './Dark';
 
 const Navbar = () => {
   return (
-    <div>
-    <div className=' container m-auto flex justify-between items-center bg-[#143443] text-white sm:p-6 p-10'>
+    <>
+    <div className=' container m-auto flex items-center justify-between xs:flex-row py-2 border-b-2 shadow-xl  shadow-gray-400 border-accentDarkSecondary sticky top-0 backdrop-blur supports-[backdrop-filter]:bg-background/60 z-10'>
       <div>
         <Link href="/">
         <span className="sm:text-xl text-[5vw] font-bold">Muhammad Akram Mallah</span>
@@ -28,7 +28,7 @@ const Navbar = () => {
 
       </div>
       </div>
-    </div>
+    </>
   )
 }
 
